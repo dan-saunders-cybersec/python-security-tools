@@ -4,7 +4,7 @@ A collection of Python security tools built whilst
 learning ethical hacking and penetration testing 
 as part of my cybersecurity studies.
 
-- 
+--- 
 
 ## Tool 1 - Port Scanner
 
@@ -38,6 +38,6 @@ Reduced scan time from several minutes to under
 - Single target scanning only
 - No file output, shows in terminal display only
 
--
+---
 
 ## Tool 2 - Coming Soon

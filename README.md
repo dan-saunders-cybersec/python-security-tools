@@ -70,3 +70,29 @@ Added concurrent.futures ThreadPoolExecutor with
 than wordlist order confirming simultaneous execution.
 Notable speed improvement over sequential version.
 ...
+
+## Tool 3 - PowerShell Base64 Decoder
+
+A forensic tool for decoding obfuscated PowerShell 
+commands commonly found in malware analysis and 
+incident response investigations.
+
+Built to replicate the CyberChef From Base64 and 
+UTF-16LE decode process in a portable Python script. 
+Reads encoded strings from a text file, decodes them 
+and automatically saves the output for documentation.
+
+**How to run:**
+python3 powershell-decoder.py
+
+**How to use:**
+1. Save the encoded string to a .txt file
+2. Run the script and enter the filename when prompted
+3. Decoded output prints to terminal and saves 
+   automatically to decoded_output.txt
+
+**Real world application:**
+Used during a supply chain compromise investigation 
+to decode a malicious PowerShell dropper discovered 
+in Splunk logs. See soc-investigations repository 
+for full write up

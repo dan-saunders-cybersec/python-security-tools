@@ -40,4 +40,25 @@ Reduced scan time from several minutes to under
 
 ---
 
-## Tool 2 - Coming Soon
+## Tool 2 - Subdomain Enumerator
+
+A threaded subdomain enumeration tool that discovers 
+active subdomains using DNS lookups against a 
+customisable wordlist.
+
+**How to run:**
+python3 subdomain-enumerator.py
+
+**Version History:**
+
+Version 1 - Single hardcoded lookup
+...
+
+Version 2 - Hardcoded wordlist loop
+...
+
+Version 3 - External wordlist file
+...
+
+Version 4 - Threaded enumeration
+...

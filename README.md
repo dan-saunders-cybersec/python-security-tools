@@ -52,13 +52,21 @@ python3 subdomain-enumerator.py
 **Version History:**
 
 Version 1 - Single hardcoded lookup
-...
+Tested core DNS lookup concept against 
+one hardcoded subdomain.
 
 Version 2 - Hardcoded wordlist loop
-...
+Looped through a hardcoded list of common 
+subdomains printing any that resolved successfully.
 
 Version 3 - External wordlist file
-...
+Replaced hardcoded list with file input allowing 
+any wordlist to be used. Added FileNotFoundError 
+handling for invalid paths.
 
 Version 4 - Threaded enumeration
+Added concurrent.futures ThreadPoolExecutor with 
+50 workers. Results return in response order rather 
+than wordlist order confirming simultaneous execution.
+Notable speed improvement over sequential version.
 ...
